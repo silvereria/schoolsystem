@@ -1,0 +1,13 @@
+node_modules/
+backend/vendor/
+backend/composer.phar
+build/
+dist/
+coverage/
+public/assets/aistudio/
+scratch/
+.aistudio/
+.DS_Store
+*.log
+.env*
+!.env.example

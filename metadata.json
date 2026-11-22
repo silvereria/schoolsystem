@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix School Management System",
+  "description": "Comprehensive school management system administrator dashboard with student, teacher, attendance, test, exam, fee, and report card modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

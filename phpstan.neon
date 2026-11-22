@@ -1,0 +1,16 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 8
+    paths:
+        - backend/core/auth.php
+        - backend/core/payment-ledger.php
+        - backend/core/marks-workflow.php
+    scanFiles:
+        - backend/core/authorization-policy.php
+        - backend/core/db.php
+        - backend/core/logging.php
+        - backend/core/monitoring.php
+        - backend/core/response.php
+    tmpDir: backend/vendor/phpstan-cache

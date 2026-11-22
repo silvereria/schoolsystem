@@ -1,0 +1,256 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function addTeacherClassAssignmentScope\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function addTeacherClassAssignmentScope\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function addTeacherClassAssignmentScope\\(\\) has parameter \\$where with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function addTeacherSubjectAssignmentScope\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function addTeacherSubjectAssignmentScope\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function addTeacherSubjectAssignmentScope\\(\\) has parameter \\$where with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function auditLog\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function clearLoginAccountRateLimit\\(\\) has parameter \\$keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function denyEndpointRole\\(\\) has parameter \\$allowedRoles with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function denyEndpointRole\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function denyModulePermission\\(\\) has parameter \\$permission with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function denyModulePermission\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceModulePermission\\(\\) has parameter \\$permission with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceModulePermission\\(\\) has parameter \\$permissions with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceModulePermission\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceNonOverridableRoleRestrictions\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceResolvedRoutePermission\\(\\) has parameter \\$routePolicy with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceResolvedRoutePermission\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceRoutePermission\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function enforceRoutePermission\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getAuthCookieOptions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getDefaultRolePermissions\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getLoginRateLimitKeys\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getRolePermissionOverride\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getRoutePermissionRequirement\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getSessionCsrfToken\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function getStoredSecurityPolicy\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function isLoginRateLimited\\(\\) has parameter \\$keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function normalizeRoleAllowedModules\\(\\) has parameter \\$allowed with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function normalizeRoleAllowedModules\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function normalizeRoleWritableModules\\(\\) has parameter \\$allowed with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function normalizeRoleWritableModules\\(\\) has parameter \\$writable with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function normalizeRoleWritableModules\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function recordLoginFailure\\(\\) has parameter \\$keys with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireAnyAuth\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireAuth\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireCurrentRoutePolicy\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireCurrentRoutePolicy\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireRole\\(\\) has parameter \\$allowedRoles with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireRole\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function requireTeacherAssignment\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function saveStoredSecurityPolicy\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function teacherHasAssignment\\(\\) has parameter \\$session with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function validateSession\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/auth.php
+
+		-
+			message: "#^Function guardMarkSubmissionEdit\\(\\) has parameter \\$actor with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/marks-workflow.php
+
+		-
+			message: "#^Function createFeePaymentReversal\\(\\) has parameter \\$actor with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/payment-ledger.php
+
+		-
+			message: "#^Function createFeePaymentReversal\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/payment-ledger.php
+
+		-
+			message: "#^Function loadFeePaymentLedger\\(\\) has parameter \\$binds with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/payment-ledger.php
+
+		-
+			message: "#^Function loadFeePaymentLedger\\(\\) has parameter \\$pagination with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/payment-ledger.php
+
+		-
+			message: "#^Function loadFeePaymentLedger\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/payment-ledger.php
+
+		-
+			message: "#^Function resolveFeePaymentStudent\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: backend/core/payment-ledger.php
